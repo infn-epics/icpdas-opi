@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-07-25 21:06:41 by andreamichelotti-->
+<!--Saved on 2024-07-26 22:39:02 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display</name>
-  <macros>
-    <P>SPARC</P>
-    <R>TEMP</R>
-  </macros>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <class>TITLE</class>
