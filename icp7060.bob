@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-11 15:30:14 by Alex-->
+<!--Saved on 2024-10-11 16:49:12 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display-7060</name>
+  <width>780</width>
+  <height>470</height>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle</name>
     <x>11</x>
@@ -224,79 +226,79 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry</name>
-    <pv_name>$(P):$(R):DI0_CNT</pv_name>
+    <pv_name>$(P):$(R):DI0_CNT_RB</pv_name>
     <x>650</x>
     <y>180</y>
     <height>24</height>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry_1</name>
-    <pv_name>$(P):$(R):DI1_CNT</pv_name>
+    <pv_name>$(P):$(R):DI1_CNT_RB</pv_name>
     <x>650</x>
     <y>224</y>
     <height>24</height>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED</name>
-    <pv_name>$(P):$(R):DI0</pv_name>
+    <pv_name>$(P):$(R):DI0_RB</pv_name>
     <x>590</x>
     <y>180</y>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_1</name>
-    <pv_name>$(P):$(R):DI1</pv_name>
+    <pv_name>$(P):$(R):DI1_RB</pv_name>
     <x>590</x>
     <y>224</y>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry_2</name>
-    <pv_name>$(P):$(R):DI2_CNT</pv_name>
+    <pv_name>$(P):$(R):DI2_CNT_RB</pv_name>
     <x>650</x>
     <y>274</y>
     <height>24</height>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_2</name>
-    <pv_name>$(P):$(R):DI2</pv_name>
+    <pv_name>$(P):$(R):DI2_RB</pv_name>
     <x>590</x>
     <y>274</y>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry_3</name>
-    <pv_name>$(P):$(R):DI3_CNT</pv_name>
+    <pv_name>$(P):$(R):DI3_CNT_RB</pv_name>
     <x>650</x>
     <y>324</y>
     <height>24</height>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_3</name>
-    <pv_name>$(P):$(R):DI3</pv_name>
+    <pv_name>$(P):$(R):DI3_RB</pv_name>
     <x>590</x>
     <y>324</y>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry_4</name>
-    <pv_name>$(P):$(R):DI4_CNT</pv_name>
+    <pv_name>$(P):$(R):DI4_CNT_RB</pv_name>
     <x>650</x>
     <y>374</y>
     <height>24</height>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_4</name>
-    <pv_name>$(P):$(R):DI4</pv_name>
+    <pv_name>$(P):$(R):DI4_RB</pv_name>
     <x>590</x>
     <y>374</y>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>Text Entry_5</name>
-    <pv_name>$(P):$(R):DI5_CNT</pv_name>
+    <pv_name>$(P):$(R):DI5_CNT_RB</pv_name>
     <x>650</x>
     <y>424</y>
     <height>24</height>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_5</name>
-    <pv_name>$(P):$(R):DI5</pv_name>
+    <pv_name>$(P):$(R):DI5_RB</pv_name>
     <x>590</x>
     <y>424</y>
   </widget>
