@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-07-25 19:58:55 by andreamichelotti-->
+<!--Saved on 2024-12-14 22:18:39 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display</name>
-  <width>392</width>
+  <width>488</width>
   <height>26</height>
   <widget type="label" version="2.0.0">
     <name>Label_1</name>
@@ -17,14 +17,20 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_1</name>
-    <pv_name>$(P):$(R):$(ID)_MIN_RB</pv_name>
-    <x>292</x>
+    <pv_name>$(P):$(R):$(ID):VOLT_MIN_RB</pv_name>
+    <x>388</x>
     <y>3</y>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_2</name>
-    <pv_name>$(P):$(R):$(ID)_MAX_RB</pv_name>
-    <x>170</x>
+    <pv_name>$(P):$(R):$(ID):VOLT_MAX_RB</pv_name>
+    <x>277</x>
+    <y>3</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>$(P):$(R):$(ID):VOLT_RB</pv_name>
+    <x>166</x>
     <y>3</y>
   </widget>
 </display>
