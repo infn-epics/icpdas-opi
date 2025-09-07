@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-09-07 15:47:36 by andreamichelotti-->
+<!--Saved on 2025-09-07 19:38:02 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display-7250</name>
+  <width>770</width>
+  <height>511</height>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle</name>
     <x>11</x>
     <y>164</y>
-    <width>329</width>
+    <width>429</width>
     <height>306</height>
     <line_color>
       <color red="0" green="0" blue="0">
@@ -322,10 +324,46 @@
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_10</name>
-      <pv_name>$(P):$(R):DI10_CNT</pv_name>
+      <pv_name>$(P):$(R):DI10_CNT_RB</pv_name>
       <x>72</x>
       <y>411</y>
       <height>24</height>
     </widget>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_11</name>
+    <pv_name>$(P):$(R):DO0_RB</pv_name>
+    <x>380</x>
+    <y>177</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>$(P):$(R):DO1_RB</pv_name>
+    <x>380</x>
+    <y>224</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>$(P):$(R):DO2_RB</pv_name>
+    <x>380</x>
+    <y>274</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_14</name>
+    <pv_name>$(P):$(R):DO3_RB</pv_name>
+    <x>380</x>
+    <y>324</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_15</name>
+    <pv_name>$(P):$(R):DO4_RB</pv_name>
+    <x>380</x>
+    <y>374</y>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_16</name>
+    <pv_name>$(P):$(R):DO0_RB</pv_name>
+    <x>380</x>
+    <y>424</y>
   </widget>
 </display>
