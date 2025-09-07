@@ -17,7 +17,7 @@
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>LED</name>
-    <pv_name>$(P):$(R):$(ID):VOLT</pv_name>
+    <pv_name>$(P):$(R):$(ID):VOLT_SP</pv_name>
     <x>315</x>
     <width>110</width>
     <scripts>

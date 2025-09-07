@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-11 15:42:01 by Alex-->
+<!--Saved on 2025-09-07 15:47:36 by andreamichelotti-->
 <display version="2.0.0">
   <name>Display-7250</name>
   <widget type="rectangle" version="2.0.0">
@@ -57,7 +57,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_1</name>
-    <pv_name>$(P):$(R):DO1</pv_name>
+    <pv_name>$(P):$(R):DO1_SP</pv_name>
     <x>181</x>
     <y>224</y>
     <width>140</width>
@@ -76,7 +76,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_2</name>
-    <pv_name>$(P):$(R):DO2</pv_name>
+    <pv_name>$(P):$(R):DO2_SP</pv_name>
     <x>181</x>
     <y>274</y>
     <width>140</width>
@@ -95,7 +95,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_3</name>
-    <pv_name>$(P):$(R):DO3</pv_name>
+    <pv_name>$(P):$(R):DO3_SP</pv_name>
     <x>181</x>
     <y>324</y>
     <width>140</width>
@@ -114,7 +114,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_4</name>
-    <pv_name>$(P):$(R):DO4</pv_name>
+    <pv_name>$(P):$(R):DO4_SP</pv_name>
     <x>181</x>
     <y>374</y>
     <width>140</width>
@@ -133,7 +133,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_5</name>
-    <pv_name>$(P):$(R):DO0</pv_name>
+    <pv_name>$(P):$(R):DO0_SP</pv_name>
     <x>181</x>
     <y>174</y>
     <width>140</width>
@@ -152,7 +152,7 @@
   </widget>
   <widget type="bool_button" version="2.0.0">
     <name>Boolean Button_6</name>
-    <pv_name>$(P):$(R):DO5</pv_name>
+    <pv_name>$(P):$(R):DO5_SP</pv_name>
     <x>181</x>
     <y>424</y>
     <width>140</width>
@@ -165,86 +165,85 @@
     <height>480</height>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry</name>
-      <pv_name>$(P):$(R):DI0_CNT</pv_name>
+      <pv_name>$(P):$(R):DI0_CNT_RB</pv_name>
       <x>72</x>
       <y>33</y>
       <height>24</height>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_1</name>
-      <pv_name>$(P):$(R):DI1_CNT</pv_name>
+      <pv_name>$(P):$(R):DI1_CNT_RB</pv_name>
       <x>72</x>
       <y>71</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED</name>
-      <pv_name>$(P):$(R):DI0</pv_name>
+      <pv_name>$(P):$(R):DI0_RB</pv_name>
       <x>12</x>
       <y>33</y>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_1</name>
-      <pv_name>$(P):$(R):DI1</pv_name>
+      <pv_name>$(P):$(R):DI1_RB</pv_name>
       <x>12</x>
       <y>72</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_2</name>
-      <pv_name>$(P):$(R):DI2_CNT</pv_name>
+      <pv_name>$(P):$(R):DI2_CNT_RB</pv_name>
       <x>72</x>
       <y>112</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_2</name>
-      <pv_name>$(P):$(R):DI2</pv_name>
+      <pv_name>$(P):$(R):DI2_RB</pv_name>
       <x>12</x>
       <y>113</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_3</name>
-      <pv_name>$(P):$(R):DI3_CNT</pv_name>
+      <pv_name>$(P):$(R):DI3_CNT_RB</pv_name>
       <x>72</x>
       <y>151</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_3</name>
-      <pv_name>$(P):$(R):DI3</pv_name>
+      <pv_name>$(P):$(R):DI3_RB</pv_name>
       <x>12</x>
       <y>152</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_4</name>
-      <pv_name>$(P):$(R):DI4_CNT</pv_name>
+      <pv_name>$(P):$(R):DI4_CNT_RB</pv_name>
       <x>72</x>
       <y>190</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_4</name>
-      <pv_name>$(P):$(R):DI4</pv_name>
+      <pv_name>$(P):$(R):DI4_RB</pv_name>
       <x>12</x>
       <y>191</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_5</name>
-      <pv_name>$(P):$(R):DI5_CNT</pv_name>
+      <pv_name>$(P):$(R):DI5_CNT_RB</pv_name>
       <x>72</x>
       <y>229</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_5</name>
-      <pv_name>$(P):$(R):DI5</pv_name>
+      <pv_name>$(P):$(R):DI5_RB</pv_name>
       <x>12</x>
       <y>230</y>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label_1</name>
       <text>INPUTS</text>
-      <x>-8</x>
       <y>1</y>
       <width>80</width>
       <font>
@@ -265,59 +264,59 @@
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_6</name>
-      <pv_name>$(P):$(R):DI6</pv_name>
+      <pv_name>$(P):$(R):DI6_RB</pv_name>
       <x>12</x>
       <y>269</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_6</name>
-      <pv_name>$(P):$(R):DI6_CNT</pv_name>
+      <pv_name>$(P):$(R):DI6_CNT_RB</pv_name>
       <x>72</x>
       <y>268</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_7</name>
-      <pv_name>$(P):$(R):DI7</pv_name>
+      <pv_name>$(P):$(R):DI7_RB</pv_name>
       <x>12</x>
       <y>306</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_7</name>
-      <pv_name>$(P):$(R):DI7_CNT</pv_name>
+      <pv_name>$(P):$(R):DI7_CNT_RB</pv_name>
       <x>72</x>
       <y>305</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_8</name>
-      <pv_name>$(P):$(R):DI8</pv_name>
+      <pv_name>$(P):$(R):DI8_RB</pv_name>
       <x>12</x>
       <y>342</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_8</name>
-      <pv_name>$(P):$(R):DI8_CNT</pv_name>
+      <pv_name>$(P):$(R):DI8_CNT_RB</pv_name>
       <x>72</x>
       <y>341</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_9</name>
-      <pv_name>$(P):$(R):DI9</pv_name>
+      <pv_name>$(P):$(R):DI9_RB</pv_name>
       <x>12</x>
       <y>378</y>
     </widget>
     <widget type="textentry" version="3.0.0">
       <name>Text Entry_9</name>
-      <pv_name>$(P):$(R):DI9_CNT</pv_name>
+      <pv_name>$(P):$(R):DI9_CNT_RB</pv_name>
       <x>72</x>
       <y>377</y>
       <height>24</height>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED_10</name>
-      <pv_name>$(P):$(R):DI10</pv_name>
+      <pv_name>$(P):$(R):DI10_RB</pv_name>
       <x>12</x>
       <y>412</y>
     </widget>
